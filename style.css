@@ -1,13 +1,23 @@
+:root {
+  --alabaster-grey: #d8e2dc;
+  --powder-petal: #ffe5d9;
+  --pastel-pink: #ffcad4;
+  --cherry-blossom: #f4acb7;
+  --dusty-mauve: #9d8189;
+}
+
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background-color: var(--power-petal);
 }
 
 .navbar {
-    background-color: #333;
+    background-color: var(--dusty-mauve);
     color: #fff;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul {
@@ -20,5 +30,10 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: var(--powder-petal);
 }
 
