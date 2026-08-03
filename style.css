@@ -40,6 +40,11 @@ nav a:hover {
     color: var(--powder-petal);
 }
 
+main {
+    padding: 0 20px;
+    min-height: calc(100vh - 60px); /* Adjust based on navbar and footer height */
+}
+
 footer {
     background-color: var(--dusty-mauve);
     color: #fff;
