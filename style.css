@@ -79,6 +79,18 @@ th {
     background-color: var(--cherry-blossom);
     color: #fff;
 }
+/* End of Table styling */
+/* --------- End of Portfolio Page --------------*/
+
+
+/* -------------About Page-------------- */
+.frustration-gif {
+    max-width: 300px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+/* -------------End of About Page-------------- */
 
 
 footer {
