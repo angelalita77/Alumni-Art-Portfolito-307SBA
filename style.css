@@ -50,6 +50,40 @@ main {
     min-height: calc(100vh - 60px); /* Adjust based on navbar and footer height */
 }
 
+/* --------- Home Page --------------*/
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--dusty-mauve);
+    line-height: 1.1;
+    margin: 0;
+}
+
+.hero-text {
+    flex: 1;
+}
+/* --------- End of Home Page --------------/
+
+
 /* --------- Under Portfolio Page --------------*/
 /* Table styling */
 
