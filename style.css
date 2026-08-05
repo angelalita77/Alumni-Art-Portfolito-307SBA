@@ -15,6 +15,7 @@ html, body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Navigation bar styles */
 .navbar {
     background-color: var(--dusty-mauve);
     color: #fff;
@@ -39,6 +40,8 @@ nav a:hover {
     text-decoration: underline;
     color: var(--powder-petal);
 }
+/* End of Navigation bar styles */ 
+
 
 main {
     padding: 0 20px;
