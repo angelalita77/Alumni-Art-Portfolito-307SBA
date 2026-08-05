@@ -27,7 +27,7 @@ This project is a multi-page website built to demonstrate clean HTML structure, 
 - [ ] **Rich Media Content:**
   - [?] Text content integrated across pages.
   - [X] At least one (1) static image (`<img>`).
-  - [ ] At least one (1) GIF.
+  - [X] At least one (1) GIF.
 
 ---
 
