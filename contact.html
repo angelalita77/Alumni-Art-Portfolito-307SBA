@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- Navigation Bar -->
-     <nav class="navbar">
+    <nav class="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
         </ul>
@@ -17,30 +19,70 @@
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-     </nav>
-     <!-- End of Navigation Bar -->
-     <main class="main-container">
+    </nav>
+    <!-- End of Navigation Bar -->
+    <main class="main-container">
         <h1> Drawing Requests</h1>
-        <p> Hello! Thanks you for your interest in my drawings 
+        <p> Hello! Thanks you for your interest in my drawings
             and drawing style. If you have any request of a character you
             would like me to draw, feel free to submit a request. Drawing
             requests do take some time so check in my site at least 5 days
             after the requests.
         </p>
 
-        
+        <form action="#" method="post">
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name" required><br>
 
-     </main>
-     <footer>
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name" required><br>
+
+            <label for="aspiring-artist">Are you an aspiring artist?</label>
+            <select name="aspiring-artist" id="aspiring-artist">
+                <option value="">-- Select --</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <br>
+            <fieldset>
+                <legend>What are your interests?</legend>
+
+                <input type="checkbox" id="interest-anime" name="interests" value="anime">
+                <label for="interest-anime">Anime</label><br>
+
+                <input type="checkbox" id="interest-comics" name="interests" value="comics">
+                <label for="interest-comics">Comics</label><br>
+
+                <input type="checkbox" id="interest-manga" name="interests" value="manga">
+                <label for="interest-manga">Manga</label><br>
+
+                <input type="checkbox" id="interest-animation" name="interests" value="animation">
+                <label for="interest-animation">Animation</label><br>
+
+                <input type="checkbox" id="interest-cg" name="interests" value="computer-graphics">
+                <label for="interest-cg">Computer Graphics</label><br>
+
+                <input type="checkbox" id="interest-games" name="interests" value="video-games">
+                <label for="interest-games">Video Games</label>
+            </fieldset>
+            <br>
+
+            <label for="drawing-request">What drawing do you request?</label><br>
+        </form>
+
+
+    </main>
+    <footer>
         <ul class="social-links">
             <li><a href="#">Instagram</a></li>
             <li><a href="#">Twitter</a></li>
             <li><a href="#">Deviant Art</a></li>
         </ul>
-        <p style="font-size: 10px; margin: 0px"> &copy 2026 Sketchbook Portfolio. 
-            All drawings are of my own creation. 
+        <p style="font-size: 10px; margin: 0px"> &copy 2026 Sketchbook Portfolio.
+            All drawings are of my own creation.
             No AI existed at that time.
         </p>
-     </footer>
+    </footer>
 </body>
+
 </html>
