@@ -18,8 +18,8 @@ This project is a multi-page website built to demonstrate clean HTML structure, 
 ## ✅ Technical Requirements Checklist
 
 ### HTML Requirements
-- [ ] **Multi-Page Structure:** Includes at least three (3) distinct HTML pages.
-- [ ] **Grid & Layout Consistency:** Grid system/layout remains consistent across all pages.
+-[X] **Multi-Page Structure:** Includes at least three (3) distinct HTML pages.
+- [X] **Grid & Layout Consistency:** Grid system/layout remains consistent across all pages.
 - [ ] **HTML Tag Diversity:** Uses at least ten (10) different HTML tags (e.g., `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`, `<table>`, `<form>`, `<select>`, `<img>`, `<h1>`).
 - [ ] **Table Component:** Includes at least one (1) `<table>` element.
 - [ ] **Form Components:** Includes at least two (2) separate `<form>` elements.
