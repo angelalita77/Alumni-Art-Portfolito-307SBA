@@ -51,15 +51,18 @@ main {
 }
 
 /* --------- Home Page --------------*/
+.hero-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 .hero {
     display: flex;
     align-items: center;
-    gap: 30px;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .hero-image {
-    flex: 1;
+    padding-right: 30px;
 }
 
 .hero-image img {
@@ -80,6 +83,26 @@ main {
 
 .hero-text {
     flex: 1;
+}
+
+button {
+    background-color: var(--cherry-blossom);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--dusty-mauve);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(157, 129, 137, 0.5); /* Focus ring for accessibility */
 }
 /* --------- End of Home Page --------------/
 
