@@ -50,7 +50,7 @@ main {
     min-height: calc(100vh - 60px); /* Adjust based on navbar and footer height */
 }
 
-/* Under Portfolio Page */
+/* --------- Under Portfolio Page --------------*/
 /* Table styling */
 
 /* Resizing the images in the table to fit the screen */
@@ -61,6 +61,25 @@ table img {
     /* border-radius: 8px; */
     display: block;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;  /* To remove the space between table cells */
+    margin-top: 20px;
+    background-color: var(--alabaster-grey);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left; /* The header and data are aligned to the left for better readability. */
+    border-bottom: 1px solid var(--dusty-mauve);
+}
+
+th {
+    background-color: var(--cherry-blossom);
+    color: #fff;
+}
+
 
 footer {
     background-color: var(--dusty-mauve);
