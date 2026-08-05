@@ -50,6 +50,18 @@ main {
     min-height: calc(100vh - 60px); /* Adjust based on navbar and footer height */
 }
 
+/* Under Portfolio Page */
+/* Table styling */
+
+/* Resizing the images in the table to fit the screen */
+table img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* border-radius: 8px; */
+    display: block;
+}
+
 footer {
     background-color: var(--dusty-mauve);
     color: #fff;
